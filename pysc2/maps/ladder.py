@@ -58,6 +58,8 @@ ladder_maps = [
     ("PaladinoTerminal",     Ladder2017Season1, "PaladinoTerminalLE", 2),
     ("ProximaStation",       Ladder2017Season2, "ProximaStationLE", 2),
     ("Sequencer",            Ladder2017Season2, "SequencerLE", 2),
+    ("gto",                  Ladder2017Season3, "gto", 2),
+    ("gtoVikingUp",          Ladder2017Season3, "gtoVikingUp", 2),
 ]
 # pylint: enable=bad-whitespace, undefined-variable
 
