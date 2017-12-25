@@ -63,10 +63,13 @@ class Feature(collections.namedtuple(
   }
 
   def unpack(self, obs):
+    # type: (object) -> object
     """Return a correctly shaped numpy array for this feature."""
     planes = getattr(obs.feature_layer_data, self.layer_set)
     plane = getattr(planes, self.name)
-    return self.unpack_layer(plane)
+    plane = self.unpack_layer(plane)
+    plane[plane==3]=2
+    return plane
 
   @staticmethod
   @sw.decorate
