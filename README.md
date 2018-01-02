@@ -19,6 +19,21 @@
   </a>
 </div>
 
+# To use
+First install the pysc2 env from directory:
+
+```shell
+$ pip install pysc2/
+```
+
+Then add test maps gto.SC2MAP and gtoVikingUp.SC2MAP in your local computer's Starcraft II map location, under the directory Ladder2017Season3.
+
+Test with
+```shell
+$ python -m pysc2.bin.play --map gtoVikingUp
+```
+kill the overlord hidden in the background to win.
+
 # PySC2 - StarCraft II Learning Environment
 
 [PySC2](https://github.com/deepmind/pysc2) is [DeepMind](http://deepmind.com)'s
