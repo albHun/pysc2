@@ -26,7 +26,7 @@ First install the pysc2 env from directory:
 $ pip install pysc2/
 ```
 
-Then add test maps gto.SC2MAP and gtoVikingUp.SC2MAP in your local computer's Starcraft II map location, under the directory Ladder2017Season3.
+Then add test maps gto.SC2MAP and gtoVikingUp.SC2MAP from pysc2/maps/testmaps into your local computer's Starcraft II map location, under the directory Ladder2017Season3.
 
 Test with
 ```shell
